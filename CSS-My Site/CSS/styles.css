@@ -1,0 +1,145 @@
+body{
+margin: 0px;
+text-align: center;
+font-family: 'Merriweather', serif;
+color: #40514E;
+}
+p{
+  line-height: 2;
+}
+
+h1{
+margin-top: 0px;
+font-family: 'Sacramento', cursive;
+font-size: 7vw;
+color:#66BFBF;
+
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5vw;
+  color:#66BFBF;
+  font-weight: normal;
+  padding-bottom: 20px
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  width: 4%;
+  border-top-width: 6px;
+  color: grey;
+  margin: 100px auto;
+
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+.profile{
+  line-height: 2;
+  width: 30%;
+  margin: auto;
+}
+
+.top-container{
+  background-color: #beebe9;
+  padding-top: 6.01%;
+  position: relative;
+}
+.middle-container{
+  margin: 100px auto;
+
+
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+
+}
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+  width: 10%;
+  height: auto;
+
+}
+.top-cloud{
+  position: absolute;
+  right:300px;
+  top: 50px;
+  width: 10%;
+  height: auto;
+}
+.profile-pic{
+  width:18.75rem;
+  border-radius: 100%;
+
+}
+.mountains{
+width: 39.8%;
+height: auto;
+}
+
+.btn{
+  box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	background-color:#33bdef;
+	border-radius:6px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+}
+.btn:hover{
+  background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	background-color:#019ad2;
+}
+.btn:active{
+  position:relative;
+	top:1px;
+}
+.footer-link{
+  color: #11999E;
+  margin: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.copyrights{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.footer-link:hover{
+  color: #EAF6F6;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+
+}
+.contact-me{
+  width:60%;
+  margin: 40px auto 60px;
+}
+.java-pic{
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
+.developer-pic{
+  width: 15%;
+  float: right;
+  margin-left: 30px
+}
